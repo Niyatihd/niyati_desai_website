@@ -1796,13 +1796,13 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 3.5em 0;
+		/* margin: 0 0 3.5em 0; */
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			border-bottom: solid 2px #fff;
 			display: inline-block;
-			padding-bottom: 1em;
+			/* padding-bottom: 1em; */
 			position: relative;
 		}
 
@@ -2345,11 +2345,13 @@ input, select, textarea {
 			}
 
 		ul.icons.major {
-			padding: 1em 0;
+			/* padding: 1em 0; */
 		}
 
 			ul.icons.major li {
 				padding-right: 3.5em;
+				margin-top: 70px;
+				margin-bottom: 70px;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -2836,7 +2838,7 @@ input, select, textarea {
 }
 
 	.wrapper {
-		padding: 4em 0 4em 0;
+		padding: 2em 0 4em 0;
 	}
 
 		.wrapper > .inner {
@@ -3806,6 +3808,22 @@ input, select, textarea {
 	}
 
 /* CTA */
+	#arrow-two {
+		background-image: url(images/arrow.svg);
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: contain;
+		    bottom: 1em;
+		    content: '';
+		    display: block;
+		    height: 1.25em;
+		    left: 50%;
+		    margin: 0 0 0 -0.75em;
+				position: relative;
+				top: -2.75em;
+				width: 1.5em;
+				border-bottom: none;
+	}
 
 	#cta .inner {
 		display: -moz-flex;
