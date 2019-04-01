@@ -3976,6 +3976,7 @@ input, select, textarea {
 			font-weight: normal;
 			text-transform: none !important;
 			font-size: 2em;
+			margin: 0 0.5em 0 0.5em;
 		}
 
 		#footer .icons {
